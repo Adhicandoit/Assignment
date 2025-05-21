@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -25,7 +28,7 @@
         </nav>
         <section class="main-section">
             <header class="header">
-                <h3>Properties</h3>
+                <h3 style="margin-left: 40px;">Properties</h3>
                 <div class="right-header">
                         <div>1</div>
                         <div>2</div>
@@ -38,30 +41,246 @@
                     <button class="filter-btn">
                         Filter
                     </button>
-                    <button style="width: 192px;" class="filter-btn">
+                    <button style="width: 192px;background-color: #2D7AFD;border-radius: 6px;color: white;" class="filter-btn">
                         Add Property
                     </button>
                 </div>
                 <div class="property">
                     <div class="unit">
-                        <div style="width: 100%;">Property unit</div>
-                        <button>1</button>
-                        <button>2</button>
-                        <button>3</button>
-                        <button>4</button>
-                        <button>5</button>
-                        <button>6</button>
-                        <button>7</button>
-                        <button>8</button>
+                        <div style="width: 200px;height: 40px;display: flex;flex-direction: row;align-items: center;background-color: #E9E9EA;">                           
+                            <h5 style="margin-left: 20px;" >Property unit</h5>
+                        </div>
+                        <div style="width: 200px;height: 72px;display: flex;flex-direction: row;align-items: center;justify-content: space-around;background-color: #F2F2F6;box-shadow: #212529;">
+                            <img src="" alt="img">
+                            <div style="display: flex;flex-direction: column;">
+                                <h4 style="margin: 0px;">101 Vine Street</h4>
+                                <p>5 Units</p>
+                            </div>
+                            
+                        </div>
+                        <button class="unit-btn">Unit - 1</button>
+                        <button class="unit-btn">Unit - 2</button>
+                        <button class="unit-btn">Unit - 3</button>
+                        <button class="unit-btn">Unit - 4</button>
+                        <button class="unit-btn">Unit - 5</button>
+                        <button class="unit-btn">Unit - 6</button>
+                        <button class="unit-btn">Unit - 7</button>
+                        <button class="unit-btn">Unit - 8</button>
+                         <div style="width: 200px;height: 72px;display: flex;flex-direction: row;align-items: center;justify-content: space-around; border: 1px solid #E0E1E4 ;">
+                            <img src="" alt="img">
+                            <div style="display: flex;flex-direction: column;">
+                                <h4 style="margin: 0px;">101 Vine Street</h4>
+                            </div>                           
+                        </div>
                     </div>
                     <div class="unit-details">
-                        <div>unit details</div>
-                        <div>10 fountain square</div>
-                        <div>3documents are ready</div>
-                        <div>lease</div>
-                        <div>days left</div>
-                        <div>tenants</div>
-                        <div>open maintenance request</div>
+                        <div class="unit-details1" style="width: 1012px;height: 20px;">
+                            <h4>Unit Detail</h4>
+                            <div style="display: flex;align-items: center;justify-content: right;width: 264px;">
+                                <p>Archive</p>
+                                <p>Edit</p>
+                                <p>Add Notes(3)</p>
+                            </div>
+                        </div>
+                        <div style="width: 1012px;
+                                    height: 80px;
+                                    display: flex;
+                                    align-items: center;
+                                    background-color: #F9FAFD;
+                                    justify-content: space-between;
+                                    border-radius: 6px;
+                                    border: 1px solid #E9E9EA;
+                                    margin-top: 10px;">
+                            <div style="width: 233px;
+                                        height: 40px;
+                                        display: flex;
+                                        align-items: center;
+                                        margin-left: 10px;">
+                                        <div style="border-radius: 100%;border: 1px salmon;"><img src="" alt="image"></div>
+                                
+                                <div style="width: 100%;
+                                            height: 100%;
+                                            margin-left: 5px;
+                                            display: flex;
+                                            flex-direction: column;">
+                                    <h3 style="margin: 0px;">10 Fountain Square</h3>
+                                    <p style="display: inline;font-size: 12px;color: #747B90;">520 Vine St, Cincinnati, Ohio</p>
+                                </div>
+                            </div>
+                            <div style="width: 72px;height: 20px;color: #212529;">Unit-2</div>
+                            <div style="width: 413px;height: 20px;display: flex;flex-direction: row;justify-content: space-between;">
+                                <div>120</div>
+                                <div>3</div>
+                                <div>2</div>
+                                <div>2</div>
+                                <div>3</div>
+                            </div>
+                        </div>
+                        <div style="width: 1012px;
+                                    height: 60px;
+                                    margin-top: 10px;
+                                    display: flex;
+                                    align-items: center;
+                                    border: 1px solid #D3D3D4;
+                                    border-radius: 6px;
+                                    justify-content: center;">
+                            <div style="
+                                background-color: #FCF0EF;
+                                display: flex;
+                                border: 1px solid #EFC7BE;
+                                flex-direction: row;
+                                width: 992px;
+                                height: 40px;
+                                align-items: center;
+                                border-radius: 5px;">
+
+                                <div style="width: 30px;height: 30px;margin: 6px;background-color: #FF6D5A;border-radius: 8px;"></div>
+                                <p>3 Documents are ready for your signature</p>
+                            </div>
+                        </div>
+                        <div style="width: 1012px;
+                                    height: 32px;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    
+                                    margin-top: 10px;">
+                            <div style="display: flex;flex-direction: row;align-items: center;">
+                                <h3>Lease</h3>
+                            <button style="width: 300px;height: 32px;margin-left: 12px;background-color: white;border: 1px solid #E0E1E4;border-radius: 6px;font-size: 12px;text-align: start;">
+                                Current Lease: <b> Jun 10,2021-Jun 9,2022</b>
+                            </button>
+                            </div>         
+                            <div style="width: 120px;height: 20px;"><a style="font-size: 12px;">New Lease</a></div>
+                        </div>
+                        <div style="width: 1012px;height: 205px;margin-top: 12px;display: flex;flex-direction: row;justify-content: space-between;align-items: center;">
+                            <div>
+
+                            </div>
+                            <div style="width: 450px;
+                                        height: 205px;
+                                        border: 1px solid #E9E9EA;
+                                        border-radius: 6px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: space-evenly;">
+                                <div style="display: flex;align-items: center;justify-content: space-between;">
+                                    <h4>Days Left</h4>
+                                    <p>100</p>
+                                </div>
+                                <img src="" alt="image" style="width: 410px;height: 25px;">
+                                <div style="display: flex;justify-content: space-between;align-items: center;height: 20px;">
+                                    <p>Jun 10, 2021</p>
+                                    <p>Jun 9, 2022</p>
+                                </div>
+                                <div>
+                                    <p>Switch to Month-to-Month at the end of the lease.</p>
+                                </div>
+                                <a>View lease Document</a>
+
+                            </div>
+                            <div style="width: 542px;height: 205px;border: 1px solid #E9E9EA;display: flex;flex-direction: column;border-radius: 6px;">
+                                <div style="width: 100%;height:36px;display: flex;align-items: center;justify-content: space-between;">
+                                    <h4>Upcoming Invoices</h4>
+                                    <h4>Past and Overdue Invoices</h4>
+                                    <a href="">view all</a>
+                                </div>
+                                <div style="width: 100%;height:36px;display: flex;align-items: center;justify-content: space-between;">
+                                    <a>214531</a>
+                                    <p>Feb 01,2025</p>
+                                    <p>$1500.00</p>
+                                </div>
+                                <div style="width: 100%;height:36px;display: flex;align-items: center;justify-content: space-between;">
+                                    <a>879617</a>
+                                    <p>Jan 10,2025</p>
+                                    <p>$1500.00</p>
+                                </div>
+                                <div style="width: 100%;height:36px;display: flex;align-items: center;justify-content: space-between;">
+                                    <a>780651</a>
+                                    <p>Dec 12,2024</p>
+                                    <p>$1500.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 1012px;height: 205px;margin-top: 12px;display: flex;flex-direction: row;justify-content: space-between;align-items: center;">
+                            <div style="width: 450px;height: 205px;border: 1px solid #E9E9EA;display: flex;flex-direction: column;border-radius: 6px;">
+                                <div style="display: flex;
+                                            align-items: center;
+                                            justify-content: space-between;">
+                                    <h4>Tenants</h4>
+                                    <a>View All Tenants</a>
+                                </div>
+                                <div style="width: 402px;height: 109px;display: grid;
+                                            grid-template-rows: repeat(2, 1fr);
+                                            grid-template-columns: repeat(2, 1fr);">
+                                    <div style="display: flex;"><img src="" alt="images"><p>Jacob Jones</p></div>
+                                    <div style="display: flex;"><img src="" alt="images"><p>Wade Jones</p></div>
+                                    <div style="display: flex;"><img src="" alt="images"><p>Theresa Webb</p></div>
+                                    <div style="display: flex;"><img src="" alt="images"><p>Cody Fisher</p></div>
+                                </div>
+                            </div>
+                                 <div style="width: 542px;
+                                            height: 205px;
+                                            border: 1px solid #E9E9EA;
+                                            border-radius: 6px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            justify-content: space-around;">
+                                    <div style="width: 502px;height: 32px;display: flex;justify-content: space-between;align-items: center;">
+                                        <h3 style="width: 77px;height: 24px;">Collection</h3>
+                                        <button style="width: 180px;height: 100%;">Apr 2024</button>
+                                    </div>
+                                    <div style="    width: 502px;
+                                                    height: 106px;
+                                                    
+                                                    margin-top: 10px;
+                                                    display: flex;
+                                                    flex-direction: row;
+                                                    justify-content: space-between;
+                                                ">
+                                        <button style="    width: 104px;
+                                        background-color: white;
+                                                            height: 104px;
+                                                            border-radius: 100%;
+                                                            border: 9px solid #E9E9EA;">Total<br>$0.00</button>
+                                        <div style="display: flex;flex-direction: column;align-items: flex-start;justify-content: space-between;">
+                                            <p>Collected</p>
+                                            <p>Processing</p>
+                                            <p>Outstanding</p>
+                                            <a>View Payment History</a>
+                                        </div>
+                                        <div style="display: flex;flex-direction: column;align-items: flex-end;gap: 14px;">
+                                            <p>$0.00</p>
+                                            <p>$0.00</p>
+                                            <p>$0.00</p>
+                                        </div>
+                                    </div>            
+                                </div>
+                           
+                        </div>
+                        <div style="width: 1012px;height: 261px;border: 1px solid #E9E9EA; margin-top: 10px;display: flex;align-items: center;justify-content: center;flex-direction: column;border-radius: 6px;">
+                            <div style="width: 972px;height: 24px;display: flex;align-items: center;justify-content: space-between;">
+                                <h3>Open Maintenance Request</h3>
+                                <a>View All</a>
+                            </div>
+                            <div style="width: 972px;height: 177px;display: flex;flex-direction: column;">
+                                <div style="width: 972px;height: 30px;display: flex;align-items: center;justify-content: space-around;border-radius: 6px;background-color: #E9ECF3;">
+                                    <h5>Issue</h5>
+                                    <h5>Issue Date</h5>
+                                    <h5>Status</h5>
+                                    <h5>Category</h5>
+                                </div>
+                                <div style="display: flex;align-items: center;justify-content: space-around;border-radius: 10px;">
+                                    <p>Wash basin broken</p>
+                                    <p>Aug 10,2024</p>
+                                    <button style="width: 47px;height: 24px;">Open</button>
+                                    <p>Kitchen</p>
+                                </div>
+                                <div>3</div>
+                                <div>4</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>    
